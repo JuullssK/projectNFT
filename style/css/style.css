@@ -1116,7 +1116,6 @@ top: 90%;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
 }
-
 .menu__link {
   display: block;
   padding: 10px;
@@ -1128,3 +1127,104 @@ top: 90%;
   color: #000;
 }
 }
+@media screen and (max-width: 576px){
+  .container{
+    max-width: 450px;
+  }
+  .artist img {
+    height: 605px;
+    width: 458px;
+  }
+  .artist__bid {
+    top: 61%;
+    padding: 16px 11px 9px 39px;
+  }
+  .text-bid:nth-child(1) {
+    margin-right: 137px;
+  }
+  .artist__start {
+    top: 88%;
+    padding: 33px 21px 35px 39px;
+  }
+  .start-bid:first-child {
+    margin-right: 78px;
+
+  }
+  .text--first div::first-line {
+    font-size: 165%;
+  }
+  .text--first{
+    gap: 75px;
+  }
+  .carousel {
+    max-width: 480px;
+  }
+  .title{
+    padding-left: 3vh;
+  }
+  .carousel-items {
+    padding-top: 140px;
+  }
+  .text--third {
+    font-size: 13px;
+  }
+  .sqrt::before {
+    transform: translate(-18%, -18%);
+    width: 75px;
+    height: 75px;
+  }
+  .title--pink, .title--purple--unique{
+    font-size: 48px;
+  }
+  .title--purple--unique{
+    padding-left: 6vh;
+  }
+  .title--pink::before{
+    right: 407px;
+    bottom: -35%;
+    width: 95px;
+  height: 95px;
+  }
+  .title--purple--unique::before {
+    right: 383px;
+    bottom: 47%;
+  width: 80px;
+  height: 80px;
+}
+.title.title--creators{
+  padding-left: 5vh;
+}
+.title--creators::before{
+  right: 258px;
+}
+.card {
+  margin-right: 0px;
+  display: flex;
+}
+.avatar img {
+  width: 90px;
+  height: 90px;
+  margin-right: 24px;
+}
+.info__name{
+  font-size: 27px;
+}
+.info__eth{
+  font-size: 19px;
+}
+.info {
+  margin-right: 19px;
+}
+.title.title--read {
+  font-size: 40px;
+}
+.subscribe-form {
+  width: 486px;
+}
+.subscribe-form input {
+  padding: 32px 0px;
+}
+.subscribe-form button {
+  padding: 11px 27px;
+}
+  }
